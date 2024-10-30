@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEERS&CHEERS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="estilosc1.css" rel="stylesheet"> <!--Archivo del css-->
+    <link rel="icon" href="imgs/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="cerveza1.html">
+                <img src="imgs/logo.png" width="40px" height="40px">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <h1 class="nav-">BEERS&CHEERS</h1>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <p class="title1 text-center fs-1 mt-5">Mahou</p>
+        <div class="row gap-0 mx-1 mb-5">
+            <div class="col-md-5 gap-3 d-flex justify-content-center align-items-center" style="height: 100vh;">
+                <img src="imgs/Mahou-roja.png" class="img-fluid"
+                    style="max-width: 100%; max-height: 100%; height: auto;" alt="Cerveza Mahou">
+            </div>
+            <div class="bckg col-md-5">
+                <div class="fs-4 p-2 mt-5 mx-2">
+                    <div>
+                        Una Pale Lager con más de 40 años de historia, que salió a la luz en
+                        1969 para satisfacer a los paladares más exigentes.
+                        Se trata de una cerveza que destaca por su color dorado, de espuma cremosa y consistente, cuyo
+                        resultado es un buen
+                        balance gustativo persistente en el paladar.
+                    </div>
+                    <div class="mt-5">
+                        2.50€/ud
+                    </div>
+                    <div class="mt-5">
+                        Cuerpo
+                    </div>
+                    <div class="mt-5">
+                        Amargor
+                    </div>
+                    <div class="mt-5">
+                        Color
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-12 mb-5">
+            <div class="form bckg p-4">
+                <p class="title1 fs-3 text-center">Escribe tu comentario:</p>
+                <form class="form-container" id="comentario-form">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre"
+                            placeholder="Ingresa tu nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="comentario" class="form-label pd">Reseña</label>
+                        <textarea class="form-control" id="comentario" name="comentario" rows="4"
+                            placeholder="Escribe tu reseña" required></textarea>
+                    </div>
+                    <div class="container">
+                        <div class="rating">
+                            <input type="radio" name="clr1" style="--c:#ff9933">
+                            <input type="radio" name="clr1" style="--c:#ff9933">
+                            <input type="radio" name="clr1" style="--c:#ff9933">
+                            <input type="radio" name="clr1" style="--c:#ff9933">
+                            <input type="radio" name="clr1" style="--c:#ff9933">
+                        </div>
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn submit-btn">Enviar Comentario</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="card border-0 bckg">
+            <p class="title1 fs-3 text-start ms-3 mt-3">Comentarios:</p>
+            <div class=" row row-cols-md-4 row-cols-sm-12 justify-content-start gap-3 ms-1">
+                <div class="comment bckg my-2">
+                    <div class="mx-2 mt-1 fw-bold">José Casado Pérez</div>
+                    <div class="mx-2">Es una cerveza con muy buen sabor y muy versatil</div>
+                    <div class="mx-2 mb-1"> Puntuación:</div>
+                </div>
+                <div class="comment bckg my-2">
+                    <div class="mx-2 mt-1 fw-bold">José Casado Pérez</div>
+                    <div class="mx-2">Es una cerveza con muy buen sabor y muy versatil</div>
+                    <div class="mx-2 mb-1"> Puntuación:</div>
+                </div>
+                <div class="comment bckg my-2">
+                    <div class="mx-2 mt-1 fw-bold">José Casado Pérez</div>
+                    <div class="mx-2">Es una cerveza con muy buen sabor y muy versatil</div>
+                    <div class="mx-2 mb-1"> Puntuación:</div>
+                </div>
+                <div class="comment bckg my-2">
+                    <div class="mx-2 mt-1 fw-bold">José Casado Pérez</div>
+                    <div class="mx-2">Es una cerveza con muy buen sabor y muy versatil</div>
+                    <div class="mx-2 mb-1"> Puntuación:</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div>
+            <a href="#"> Aviso Legal</a>
+        </div>
+        <div>
+            <a href="#"> Politica de Privacidad</a>
+        </div>
+        <div>
+            <a href="#"> Politica de cookies</a>
+        </div>
+    </footer>
+</body>
+
+</html>
